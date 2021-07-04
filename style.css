@@ -10,6 +10,7 @@
 }
 body{
     text-transform: capitalize;
+    position: absolute;
 
 }
 :root{
@@ -18,9 +19,10 @@ body{
 }
 .header{
     width: 100%;
-    height: 4.5rem;
+    height: 5rem;
     background-image: linear-gradient(#141e30,#243b55);
-    position: fixed;
+    position:relative ;
+    top: -11px;
 }
 .nav ul li{
     display: inline-block;
@@ -28,6 +30,7 @@ body{
     padding: 1rem;
     list-style: none;
     margin: 0.5rem;
+    padding-top: 1.3rem;
 }
 .nav ul li a{
     font-size: 1.5rem;
@@ -44,8 +47,8 @@ body{
 .logo{
     display: flex;
     align-items: center;
-    padding-top: rem;
-    margin: 0.7rem;
+    padding-top: 1.3rem;
+    padding-left: 1rem;
 }
 .logo .logo-img{
   
@@ -76,6 +79,8 @@ body{
     width:100%;
     height: 80vh;
     background-image: linear-gradient(#d3cce3,#e9e4f0);
+    position: relative;
+    top: -10px;
 }
 .img-div{
     display: flex;
@@ -86,9 +91,9 @@ body{
     background-image: linear-gradient(#141e30,#243b55);
     border: 5px solid crimson;
     border-radius: 50%;
-    position: relative;
+    position: absolute;
     overflow: hidden;
-    top:105px;
+    top:65px;
     float: right;
     right: 20px;
 }
@@ -97,14 +102,15 @@ body{
     width: 100%;
     height: 100%;
     background-size: cover;
-    position: absolute;
+  
     
   
 }
 .home-content{
     width:50%;
     height: 100%;
-    padding: 5rem 1rem 1rem 1rem;
+    padding: 2rem 1rem 1rem 1rem;
+    position: relative;
     
 }
 .home-content .h-1st{
@@ -114,10 +120,19 @@ body{
     font-size: 2rem;
     font-family: var(--heading-font);
     padding-top: 5px;
-    color: #243b55
+    color: #243b55;
 }
 .home-content h1 span{
     color:crimson
+}
+.home-content img{
+    width:6rem;
+    height: auto;
+    float: right;
+    position: relative;
+    top: -9rem;
+    left: -60px;
+    transform: rotate(-20deg);
 }
 .home-content h2{
     padding-top: 2rem ;
@@ -133,13 +148,13 @@ body{
     font-weight: bold;
     letter-spacing: 0.5px;
     padding-top: 5px;
-
+    width: 90%;
 }
 .home-content button{
     background: crimson;
     border: none;
     border-radius: 5px;
-    margin-top: 15px;
+    margin-top: 20px;
     padding: 13px 20px;
 }
 .home-content button a{
@@ -156,4 +171,34 @@ body{
 }
 .home-content button a:hover{
     color: crimson;
+}
+.home-skill{
+   
+}
+.home-skill .img-2 img{
+    width: 4rem;
+    height: auto;
+    float: right;
+    position: relative;
+    top: 5rem;
+    left: 25px;
+    transform: rotate(20deg);
+}
+.home-skill .img-3 img{
+    width: 4rem;
+    height: auto;
+    float: right;
+    position: relative;
+    top: 14rem;
+    left: 25px;
+    transform: rotate(45deg);
+}
+.home-skill .img-4 img{
+    width: 5rem;
+    height: auto;
+    float: right;
+    position: relative;
+    top: 24rem;
+    left: 125px;
+    transform: rotate(45deg);
 }
