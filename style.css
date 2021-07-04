@@ -11,7 +11,6 @@
 body{
     text-transform: capitalize;
     position: absolute;
-
 }
 :root{
     --heading-font: 'Raleway', sans-serif;
@@ -171,9 +170,7 @@ body{
 .home-content button a:hover{
     color: crimson;
 }
-.home-skill{
-   
-}
+
 .home-skill .img-2 img{
     width: 4rem;
     height: auto;
@@ -292,4 +289,153 @@ body{
 }
 .about-right .about-content button a:hover{
     color: crimson;
+}
+/* skill-section start  */
+
+#skill{
+    background-image:linear-gradient(#d3cce3,#e9e4f0);
+    width: 100%;
+    height: 25rem;
+    position: absolute;
+}
+#skill h1{
+   text-align: center;
+    color: crimson;
+    padding: 1rem 0 0;
+    font-family: var( --heading-font);
+    font-size: 30px;
+
+}
+#skill hr{
+    width: 4rem;
+    margin: auto;
+}
+#skill .skill-right{
+    width: 60%;
+    height: 21rem;
+    float: right;
+}
+#skill .skill-right .img-div{
+    width: 20rem;
+    height: 20rem;
+ 
+    background-image: linear-gradient(#141e30,#243b55);
+    border-radius: 50% 0 0 50%;
+    overflow: hidden;
+    top: 2.5rem;
+}
+#skill .skill-right .img-div img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-size: cover;
+}
+#skill .skill-right .img-text{
+    width: 60%;
+    text-align: justify;
+    padding: 3rem;
+    margin-top: -1.5rem;
+}
+#skill .skill-right .img-text h3{
+    font-family: var( --heading-font);
+    padding: 1rem 0;
+}
+#skill .skill-right .img-text h2{
+    font-family: var( --heading-font);
+    color: #243b55;
+}
+#skill .skill-right .img-text p{
+    font-family: var(--pragraph-font);
+    font-weight: bold;
+    color:#141e30 ;
+}
+.skill-left{
+    width: 40%;
+    height: auto;
+    margin:1.5rem 1rem 2rem 1rem;
+    position: absolute;
+}
+.skill-left .skill-final .skill-line{
+    border-bottom:3px solid rgba(128, 128, 128, 0.212) ;
+    width: 100%;
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+    padding-top: 30px;
+    position: relative;
+}
+.skill-left .skill-final .skill-line span{
+    color: #141e30; 
+    font-family:var(--pragraph-font) ;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@keyframes width{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 90%;
+    }
+}
+@keyframes width2{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 80%;
+    }
+}
+@keyframes width3{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 70%;
+    }
+}@keyframes width4{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 60%;
+    }
+}
+
+.skill-final .skill-level1{
+    width: 90%;
+    border-bottom: 3px solid crimson;
+    margin-top: -2px;
+    animation-name: width;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+.skill-final .skill-level2{
+    width: 80%;
+    border-bottom: 3px solid crimson;
+    margin-top: -2px;
+    animation-name: width2;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+.skill-final .skill-level3{
+    width: 70%;
+    border-bottom: 3px solid crimson;
+    margin-top: -2px;
+    animation-name: width3;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+.skill-final .skill-level4{
+    width: 60%;
+    border-bottom: 3px solid crimson;
+    margin-top: -2px;
+    animation-name: width4;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
 }
