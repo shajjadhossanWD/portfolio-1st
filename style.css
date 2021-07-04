@@ -86,14 +86,13 @@ body{
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    width: 23rem;
-    height: 23rem;
+    width: 25rem;
+    height: 25rem;
     background-image: linear-gradient(#141e30,#243b55);
-    border: 5px solid crimson;
-    border-radius: 50%;
+    border-radius: 50% 0 0 50%;
     position: absolute;
     overflow: hidden;
-    top:65px;
+    top:60px;
     float: right;
     right: 20px;
 }
@@ -102,7 +101,7 @@ body{
     width: 100%;
     height: 100%;
     background-size: cover;
-  
+    padding-left: 45px;
     
   
 }
@@ -201,4 +200,96 @@ body{
     top: 24rem;
     left: 125px;
     transform: rotate(45deg);
+}
+/* about section  */
+#about{
+    background-image: linear-gradient(#141e30,#243b55);
+    width: 100%;
+    height: 24rem;
+    border-radius: 12rem 0 0 12rem;
+    margin-top: -7px;
+}
+#about h1{
+    text-align: center;
+    color: crimson;
+    padding: 1rem 0 0;
+    font-family: var( --heading-font);
+    font-size: 30px;
+}
+#about hr{
+    width: 4rem;
+    margin: auto;
+}
+.about-left{
+    width: 50%;
+    height: auto;
+    float: left;
+    background-color: crimson;
+}
+.about-left .about-img{
+    position: absolute;
+    width: 30rem;
+    height: 21rem;
+    background-image: linear-gradient(#d3cce3,#e9e4f0);
+    margin-left: 2rem;
+    border-radius: 12rem 0 0 12rem;
+    margin-top: -27px;
+}
+.about-left .about-img img{
+    position:relative;
+    width: 70%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    right: -50px;
+}
+.about-right{
+    width: 50%;
+    height: auto;
+    float: right;
+}
+.about-right .about-content{
+    margin: 1.7rem 1rem 2rem 0;
+}
+.about-right .about-content h2{
+    color: white;
+    padding: 13px 0;
+    font-size: 25px;
+    font-family: var( --heading-font); 
+}
+.about-right .about-content h3{
+    color:crimson;
+    font-size: 20px;
+    font-family: var( --heading-font);
+}
+.about-right .about-content p{
+    color: white;
+    width: 70%;
+    padding: 6px 0;
+    font-family: var(--pragraph-font);
+    text-align: justify;
+}
+.about-right .about-content button{
+    background: crimson;
+    border: none;
+    border-radius: 5px;
+    margin-top: 8px;
+    padding: 10px 20px;
+}
+.about-right .about-content button a{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    font-family:var(--pragraph-font); ;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: var(--pragraph-font);
+}
+.about-right .about-content button:hover{
+    background-image: linear-gradient(#141e30,#243b55);
+    border: 3px solid crimson;
+    transform: scale(.9);
+}
+.about-right .about-content button a:hover{
+    color: crimson;
 }
