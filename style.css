@@ -8,8 +8,14 @@
     padding:0;
     box-sizing: border-box;
 }
+html{
+    font-size: 73.5%;
+
+}
 body{
     text-transform: capitalize;
+    width: 100%;
+    height: auto;
     
 }
 :root{
@@ -21,7 +27,7 @@ body{
     height: 5rem;
     background-image: linear-gradient(#141e30,#243b55);
     position:relative ;
-    top: -11px;
+    top: -0.9rem;
 }
 .nav ul li{
     display: inline-block;
@@ -76,7 +82,7 @@ body{
 #home{
    
     width:100%;
-    height: 80vh;
+    height:31.5rem;
     background-image: linear-gradient(#d3cce3,#e9e4f0);
     position: relative;
     top: -10px;
@@ -91,7 +97,7 @@ body{
     border-radius: 50% 0 0 50%;
     position: absolute;
     overflow: hidden;
-    top:60px;
+    top: 3.4rem;
     float: right;
     right: 20px;
 }
@@ -142,7 +148,7 @@ body{
     font-family: var(--pragraph-font);
     color: #141e30;
     text-align: justify;
-    line-height: 20px;
+    line-height: 1.5rem;
     font-weight: bold;
     letter-spacing: 0.5px;
     padding-top: 5px;
@@ -152,11 +158,11 @@ body{
     background: crimson;
     border: none;
     border-radius: 5px;
-    margin-top: 20px;
-    padding: 13px 20px;
+    margin-top:1.3rem;
+    padding: 0.9rem 1.3rem;
 }
 .home-content button a{
-    font-size: 18px;
+    font-size: 1.1rem;
     text-decoration: none;
     color: white;
     font-family:var(--pragraph-font); ;
@@ -202,16 +208,17 @@ body{
 #about{
     background-image: linear-gradient(#141e30,#243b55);
     width: 100%;
-    height: 24rem;
+    height: 28rem;
     border-radius: 12rem 0 0 12rem;
-    margin-top: -7px;
+    margin-top: -5px;
+    
 }
 #about h1{
     text-align: center;
     color: crimson;
     padding: 1rem 0 0;
     font-family: var( --heading-font);
-    font-size: 30px;
+    font-size: 2rem;
 }
 #about hr{
     width: 4rem;
@@ -225,12 +232,12 @@ body{
 }
 .about-left .about-img{
     position: absolute;
-    width: 30rem;
-    height: 21rem;
+    width: 31rem;
+    height: 24rem;
     background-image: linear-gradient(#d3cce3,#e9e4f0);
     margin-left: 2rem;
     border-radius: 12rem 0 0 12rem;
-    margin-top: -27px;
+    margin-top: -1.5rem;
 }
 .about-left .about-img img{
     position:relative;
@@ -250,19 +257,19 @@ body{
 }
 .about-right .about-content h2{
     color: white;
-    padding: 13px 0;
-    font-size: 25px;
+    padding: 0.9rem 0;
+    font-size: 1.5rem;
     font-family: var( --heading-font); 
 }
 .about-right .about-content h3{
     color:crimson;
-    font-size: 20px;
+    font-size: 1.36rem;
     font-family: var( --heading-font);
 }
 .about-right .about-content p{
     color: white;
     width: 70%;
-    padding: 6px 0;
+    padding: 0.4rem 0;
     font-family: var(--pragraph-font);
     text-align: justify;
 }
@@ -270,11 +277,11 @@ body{
     background: crimson;
     border: none;
     border-radius: 5px;
-    margin-top: 8px;
-    padding: 10px 20px;
+    margin-top: .5rem;
+    padding: .9rem 1.4rem;
 }
 .about-right .about-content button a{
-    font-size: 18px;
+    font-size: 1.3rem;
     text-decoration: none;
     color: white;
     font-family:var(--pragraph-font); ;
@@ -295,7 +302,7 @@ body{
 #skill{
     background-image:linear-gradient(#d3cce3,#e9e4f0);
     width: 100%;
-    height: 25rem;
+    height: 28rem;
     position: absolute;
 }
 #skill h1{
@@ -303,7 +310,7 @@ body{
     color: crimson;
     padding: 1rem 0 0;
     font-family: var( --heading-font);
-    font-size: 30px;
+    font-size: 2rem;
 
 }
 #skill hr{
@@ -322,7 +329,7 @@ body{
     background-image: linear-gradient(#141e30,#243b55);
     border-radius: 50% 0 0 50%;
     overflow: hidden;
-    top: 2.5rem;
+    top: 4.2rem;
 }
 #skill .skill-right .img-div img{
     width: 100%;
@@ -349,10 +356,34 @@ body{
     font-weight: bold;
     color:#141e30 ;
 }
+#skill .skill-right .img-text button{
+    background: crimson;
+    border: none;
+    border-radius: 5px;
+    margin-top: .5rem;
+    padding: .9rem 1.35rem;
+}
+#skill .skill-right .img-text button a{
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: white;
+    font-family:var(--pragraph-font); ;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: var(--pragraph-font);
+}
+#skill .skill-right .img-text button:hover{
+    background-image:linear-gradient(#d3cce3,#e9e4f0);
+    border: 3px solid crimson;
+    transform: scale(.9);
+}
+#skill .skill-right .img-text button a:hover{
+   color: crimson;
+}
 .skill-left{
     width: 40%;
     height: auto;
-    margin:1.5rem 1rem 2rem 1rem;
+    margin:-1.5rem 1rem 2rem 1rem;
     position: absolute;
 }
 .skill-left .skill-final .skill-line{
@@ -361,13 +392,13 @@ body{
     display: flex;
     align-items:flex-start;
     justify-content: space-between;
-    padding-top: 30px;
+    padding-top: 1.9rem;
     position: relative;
 }
 .skill-left .skill-final .skill-line span{
     color: #141e30; 
     font-family:var(--pragraph-font) ;
-    font-size: 20px;
+    font-size: 1.1rem;
     font-weight: bold;
 }
 
@@ -441,17 +472,17 @@ body{
 }
 #project{
     width: 100%;
-    height: 27rem;
+    height: 29rem;
     background-image: linear-gradient(#141e30,#243b55);
     position: absolute;
-    top:84.9rem;
+    top: 92rem
 }
 #project .head{
     text-align: center;
     color: crimson;
     padding: 1rem 0 0;
     font-family: var( --heading-font);
-    font-size: 30px;
+    font-size: 2rem;
     text-transform: uppercase;
 }
 #project .pra{
@@ -494,7 +525,7 @@ body{
     border-image-slice: 1;
 }
 .project-left .full-stack h1{
-    font-size: 24px;
+    font-size: 1.6rem;
     font-family: var(--heading-font);
     color: crimson;
     font-weight: bold;
@@ -519,7 +550,7 @@ body{
     border-image-slice: 1;
 }
 .project-right .front-end h1{
-    font-size: 24px;
+    font-size: 1.6rem;
     font-family: var(--heading-font);
     color: crimson;
     font-weight: bold;
@@ -537,4 +568,51 @@ body{
     text-align: justify;
     color:#243b55 ;
 
+}
+.footer{
+    width: 100%;
+    height: 3rem;
+    background: crimson;
+    position: absolute;
+    bottom:-3rem
+    
+    
+}
+
+.footer p{
+    text-align: center;
+    font-family: var(--pragraph-font);
+    font-weight: bold;
+    padding-top: 11px;
+    color: white;
+}
+@media(max-width:950px) {
+    html{
+        font-size: 50%;
+    
+    }
+}
+@media(max-width:672px) {
+    html{
+        font-size: 40%;
+    
+    }
+}
+@media(max-width:548px) {
+    html{
+        font-size: 30%;
+    
+    }
+}
+@media(max-width:502px) {
+    html{
+        font-size: 20%;
+    
+    }
+}
+@media(max-width:410px) {
+    html{
+        font-size: 10%;
+    
+    }
 }
